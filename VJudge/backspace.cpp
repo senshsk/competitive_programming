@@ -5,10 +5,11 @@ int main(){
 
     string x;
     cin>>x;
+    bool t;
     t=true;
     int count = 0;
     int len_x = x.size();
-    while count<len_x{
+    while (count<len_x){
         if (x[count]=="<"){
             x-=x[count-1];
             x-=x[count-1];
